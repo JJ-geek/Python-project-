@@ -133,37 +133,53 @@ self.central_widget.setStyleSheet("background-color: orange ;")
 
         self.button_staff_info = QPushButton("Staff Information")
         self.button_staff_info.clicked.connect(self.open_staff_info_window)
+self.button_staff_info.setStyleSheet("background-color:blue;")
         self.layout.addWidget(self.button_staff_info)
 
         self.button_course_switch = QPushButton("Course Switch")
         self.button_course_switch.clicked.connect(self.open_course_switch_window)
+self.button_course_switch.setStyleSheet("background-color:blue;")
         self.layout.addWidget(self.button_course_switch)
 
         self.button_grades = QPushButton("School Grades")
         self.button_grades.clicked.connect(self.open_grades_window)
+self.button_grades.setStyleSheet("background-color:blue;")
+        
         self.layout.addWidget(self.button_grades)
 
         self.button_id_card = QPushButton("Student ID Cards")
         self.button_id_card.clicked.connect(self.open_id_card_window)
+self.button_id_card.setStyleSheet("background-color:blue;")
+        
         self.layout.addWidget(self.button_id_card)
         self.button_report_card = QPushButton("Student Report Cards")
         self.button_report_card.clicked.connect(self.open_report_card_window)
+self.button_report_card.setStyleSheet("background-color:blue;")
+        
         self.layout.addWidget(self.button_report_card)
 
         self.button_courses_taught = QPushButton("Courses Taught")
         self.button_courses_taught.clicked.connect(self.open_courses_taught_window)
+self.button_course_taught.setStyleSheet("background-color:blue;")
+        
         self.layout.addWidget(self.button_courses_taught)
 
         self.button_student_enrollment = QPushButton("Student Enrollment")
         self.button_student_enrollment.clicked.connect(self.open_student_enrollment_window)
+self.button_student_enrollement.setStyleSheet("background-color:blue;")
+        
         self.layout.addWidget(self.button_student_enrollment)
 
         self.button_student_marks = QPushButton("Student Marks")
         self.button_student_marks.clicked.connect(self.open_student_marks_window)
+self.button_student_marks.setStyleSheet("background-color:blue;")
+        
         self.layout.addWidget(self.button_student_marks)
 
         self.button_personal_info = QPushButton("Personal Information")
         self.button_personal_info.clicked.connect(self.open_personal_info_window)
+self.button_personal_info.setStyleSheet("background-color:blue;")
+        
         self.layout.addWidget(self.button_personal_info)
 
     def open_staff_info_window(self):
